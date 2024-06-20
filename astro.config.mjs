@@ -24,6 +24,10 @@ export default defineConfig({
           label: "Инструкции для операторов",
           autogenerate: { directory: "operators" },
         },
+        {
+          label: "Общее",
+          autogenerate: { directory: "all" },
+        },
       ],
     }),
   ],
