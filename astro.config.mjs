@@ -3,10 +3,12 @@ import starlight from "@astrojs/starlight";
 
 import tailwind from "@astrojs/tailwind";
 
-// https://astro.build/config
 export default defineConfig({
   integrations: [starlight({
     title: "Емеля",
+    customCss: [
+      './src/styles/custom.css',
+    ],
     locales: {
       root: {
         label: 'Русский',
